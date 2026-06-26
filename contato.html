@@ -1,0 +1,22 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css"</link>
+</head>
+
+<body>
+    <h2>Preencha o formulário para entrar em contato!</h2>  <!--Marca a existencia de um h2-->
+    <form id="formulario" method="GET"> <!--Abre um formulário com a função de resgatar informaçẽs-->
+    <label for="nome" id="labelnome" name="labelnome">Nome:</label> <!--Determina uma nomeação anterior-->
+    <input type="text" class='nomecaixa' id="inputnome" name="inputnome"> <br> <!--Abre uma caixa de texto-->
+    <label for="email" id="labelemail" name="labelemail">Email:</label> 
+    <input type="text" class="emailcaixa" id="inputemail" name="inputemail"> <br>
+    <label for="mnsg" id="labelmnsg" name="labelmnsg">Mensagem:</label> 
+    <input type="text"  class="mnsgcaixa" id="inputmnsg" name="mnsg"> 
+    <button onclick="botao()" id="botao">Enviar</button> <!--Chama um botão que quando envia o formulário-->
+    </form>
+<script src="enviarForm.js"></script>
+</body>
