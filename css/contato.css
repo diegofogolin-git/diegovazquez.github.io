@@ -1,0 +1,56 @@
+h2{  
+    display: flex; 
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+
+#labelnome {
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.nomecaixa {
+    border: 1px solid palevioletred;
+    width: 250px;
+}
+
+#labelemail {
+    margin-bottom: 10px;
+    margin-right: ox;
+}
+
+.emailcaixa {
+    border: 1px solid palevioletred;
+    width: 250px;
+}
+
+#labelmnsg {
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.mnsgcaixa {
+    display: flex;
+    border: 1px solid palevioletred;
+    height: 110px;
+    width: 300px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    position: absolute;
+    background-color: rgb(211, 168, 186);
+    border: 1px solid palevioletred;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(255, 202, 224);
+}
+

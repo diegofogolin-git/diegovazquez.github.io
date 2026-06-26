@@ -1,0 +1,46 @@
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: 178px;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    color: pink;
+}
+
+ul li a {
+    color: rgb(83, 48, 66);
+    font-style: italic;
+}
+
+ul li a:hover {
+    color: pink;
+    transition: .5s;
+}
+
+.p {
+    width: 400px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        margin-left: 10px;
+        align-items: left;
+    }
+
+}
